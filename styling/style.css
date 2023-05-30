@@ -179,13 +179,13 @@ a {
   text-decoration: none;
 }
 
+.sticky-nav-link {
+  color: black;
+}
+
 .nav-link:hover,
 .sticky-nav-link:hover {
   color: #414f6bc9;
-}
-
-.sticky-nav-link {
-  color: black;
 }
 
 /* SLIDES NAVIGATION */
@@ -334,7 +334,7 @@ section#history .navigation-manual {
   padding: 0 18%;
 }
 
-#team h3,
+#team nav h3,
 #team h3 a {
   font-family: 'Oswald', sans-serif;
   color: #b0b4be;
@@ -343,7 +343,7 @@ section#history .navigation-manual {
   transition: transform 0.3s ease;
 }
 
-#team h3 a:hover {
+#team nav h3 a:hover {
   background: #b0b4be;
   border-bottom: #b0b4be 1.4px solid;
   color: #414f6b;
