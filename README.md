@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a id="live-demo"></a>
 
-> Click on the link below
+> Please click the link below to open our webpage in your browser
 
 - [Live Demo Link]()
 
