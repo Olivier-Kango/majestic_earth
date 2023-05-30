@@ -168,6 +168,11 @@ a {
   text-decoration: none;
 }
 
+.nav-link:hover,
+.sticky-nav-link:hover {
+  color: #414f6bc9;
+}
+
 .sticky-nav-link {
   color: black;
 }
