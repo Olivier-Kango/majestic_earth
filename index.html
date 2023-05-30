@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styling/style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <title>Majestic Earth</title>
+  </head>
+
+  <body>
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <nav>
+        <a href="#logos"><img class="logo" src="assets/images/Logo.png" alt="Logo"></a>
+        <ul>
+          <li><a class="nav-link" href="#logos">01. HISTORY</a></li>
+          <li><a class="nav-link" href="#team">02. TEAM</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- STICKY NAV SECTION-->
+    <section id="sticky-nav">
+      <nav>
+        <a id="logos" href="#">
+          <img class="logo" src="assets/images/mountains-logo.png" alt="mountains-logo">
+          <img class="mountains-logo" src="assets/images/mountains.png" alt="losangeles-mountains">
+        </a>
+        <ul class="x">
+          <li><a class="sticky-nav-link" href="#history">01. HISTORY</a></li>
+          <li><a class="sticky-nav-link" href="#team">02. TEAM</a></li>
+        </ul>
+
+        <a id="hamburger-icon" href="#logos">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </a>
+      </nav>
+    </section>
+ 
+    <!-- HISTORY SECTION -->
+    <section id="history">
+      <h2>01.</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error facilis rem beatae laboriosam officiis qui deleniti ipsam dignissimos doloremque consectetur tempora eaque nemo labore nobis veniam reiciendis sed odit, rerum eligendi debitis. </p>
+
+      <!-- image slider start -->
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+
+          <div class="slide first">
+            <img src="./assets/images/1.png" alt="">
+            <img src="./assets/images/2.png" alt="">
+            <img src="./assets/images/3.png" alt="">
+            <img src="./assets/images/4.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="./assets/images/1.png" alt="">
+            <img src="./assets/images/2.png" alt="">
+            <img src="./assets/images/3.png" alt="">
+            <img src="./assets/images/4.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="./assets/images/1.png" alt="">
+            <img src="./assets/images/2.png" alt="">
+            <img src="./assets/images/3.png" alt="">
+            <img src="./assets/images/4.png" alt="">
+          </div>
+
+          <!-- automatic navigation -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+
+          <!-- manual navigation -->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="team">
+      <div class="div-team">
+        <h2>02.</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error facilis rem beatae laboriosam officiis qui deleniti. </p>
+      </div>
+
+      <nav>
+        <h3><a href="#history">MOUTAIN 1</a></h3>
+        <h3> <a href="#schedule"> MOUTAIN 2</a></h3>
+      </nav>
+
+      <div class="end">  
+        <div class="content" id="schedule">
+          <p class="h2" style="font-size: 20px;">SCHEDULE</p>
+          <p><span>25 Nov 2016</span><span>Vestibulum viverra</span></p>
+          <p><span>28 Nov 2016</span><span>Vestibulum viverra</span></p>
+          <p><span>18 Dec 2016</span><span>Vestibulum viverra</span></p>
+          <p><span>7 Jan 2017</span><span>Vestibulum viverra</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <nav>
+        <a id="logos" href="#">
+          <img class="logo logo-foot" src="assets/images/mountains-logo.png" alt="mountains-logo">
+          <img class="mountains-logo" src="assets/images/mountains.png" alt="losangeles-mountains">
+        </a>
+        <p>COPYRIGHT 2023. ALLS RIGHTS RESERVED</p>
+      </nav>
+    </footer>
+
+    <a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right"><i class="fa fa-arrow-circle-up" aria-hidden="true" role="img"></i></a>
+
+    <!-- JavaScript -->
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
