@@ -76,7 +76,7 @@
 
 > Please click the link below to open our webpage in your browser
 
-- [Live Demo Link]()
+- [Live Demo Link](https://majestic-earth.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
