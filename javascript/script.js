@@ -30,7 +30,7 @@ setInterval(() => {
   if (counter > 3) {
     counter = 1;
   }
-}, 4000);
+}, 5000);
 
 //  Get the scroll top button element
 const scrollTopButton = document.getElementById('scroll-top');
