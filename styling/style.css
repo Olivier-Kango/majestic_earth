@@ -246,11 +246,6 @@ section#history .navigation-manual {
   transition: transform 0.3s ease;
 }
 
-.slide a:hover {
-  background-color: #414f6b;
-  opacity: 0.7;
-}
-
 .slide img:hover {
   transform: scale(1.1);
 }
