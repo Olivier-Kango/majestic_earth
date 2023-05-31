@@ -479,6 +479,34 @@ footer {
   pointer-events: all;
 }
 
+.buttons-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.prev-button,
+.next-button {
+  background-color: transparent;
+  margin: 0 1.5%;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  transform: scaleY(2);
+  display: inline-block;
+}
+
+.prev-button:hover,
+.next-button:hover,
+.close-button:hover {
+  opacity: 0.4;
+}
+
 /* FOR MOBILE */
 @media (max-width: 618px) {
   #hero {
@@ -579,5 +607,9 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px 40px 0 40px;
+  }
+
+  .modal {
+    width: 100%;
   }
 }

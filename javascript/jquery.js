@@ -64,4 +64,14 @@ $(document).ready(() => {
     const modal = $(this).closest('.modal');
     closeModal(modal);
   });
+
+  // Manual Slides
+  const buttonsWrapper = $('<div></div>').addClass('buttons-wrapper');
+  modal.append(buttonsWrapper);
+
+  const prevButton = $('<button></button>').addClass('prev-button').html('&lt;');
+  buttonsWrapper.append(prevButton);
+
+  const nextButton = $('<button></button>').addClass('next-button').html('&gt;');
+  buttonsWrapper.append(nextButton);
 });
