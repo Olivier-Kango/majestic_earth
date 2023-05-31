@@ -601,10 +601,10 @@ footer {
 
   .content {
     position: absolute;
-    width: 330px;
+    width: 309px;
     height: 200px;
     top: 25%;
-    left: 0%;
+    left: 0;
     transform: translate(-50%, -50%);
     padding: 20px 40px 0 40px;
   }
