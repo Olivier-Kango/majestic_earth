@@ -62,7 +62,7 @@ body {
 }
 
 #hero {
-  background-image: url("../assets/images/home.png");
+  background-image: url("../assets/images/home.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -70,7 +70,7 @@ body {
 }
 
 #history {
-  background-image: url("../assets/images/history.png");
+  background-image: url("../assets/images/history.jpg");
   background-size: cover;
   background-position: center;
   width: auto;
@@ -351,7 +351,7 @@ section#history .navigation-manual {
 }
 
 #team .end {
-  background-image: url("../assets/images/team.png");
+  background-image: url("../assets/images/team.jpg");
   position: relative;
   background-size: cover;
   background-position: center;
@@ -422,7 +422,7 @@ footer {
 /* FOR MOBILE */
 @media (max-width: 618px) {
   #hero {
-    background-image: url("../assets/images/home-mobile.png");
+    background-image: url("../assets/images/home-mobile.jpg");
     background-size: 100% 100%;
   }
 }
