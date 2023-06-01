@@ -427,7 +427,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.147);
   width: 90%;
   scroll-behavior: smooth;
-  transition: transform 0.5s ease;
 }
 
 .slide-right {
