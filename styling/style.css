@@ -43,7 +43,7 @@ body {
 
 #history h2::before {
   color: #414f6b;
-  content: 'HISTORY';
+  content: 'NATURE';
   position: absolute;
   font-weight: 700;
   margin-left: 93px;
@@ -113,6 +113,10 @@ footer nav p {
 .div-team p,
 #history p {
   margin: -14px 58px 0 58px;
+}
+
+#history p span {
+  float: right;
 }
 
 #sticky-nav {
