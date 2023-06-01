@@ -445,9 +445,10 @@ footer {
   overflow: hidden;
   background: white;
   margin: 0;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   transition: 0.5s;
   position: relative;
   background-color: white;
@@ -621,4 +622,16 @@ footer {
   .modal {
     width: 100%;
   }
+
+  /* .snapshoot {
+    overflow: hidden;
+    background: white;
+    margin: 0;
+    background-size: 100% 100%;
+    transition: 0.5s;
+    position: relative;
+    background-color: white;
+    height: 520px;
+    width: auto;
+  } */
 }
