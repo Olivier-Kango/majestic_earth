@@ -12,7 +12,7 @@ $(document).ready(() => {
     { bgpopup8: "url('./assets/images/8 - Copy.jpg')" },
     { bgpopup9: "url('./assets/images/9 - Copy.jpg')" },
     { bgpopup10: "url('./assets/images/10 - Copy.jpg')" },
-    { bgpopup11: "url('./assets/images/11- Copy.jpg')" },
+    { bgpopup11: "url('./assets/images/11 - Copy.jpg')" },
     { bgpopup12: "url('./assets/images/12 - Copy.jpg')" },
   ];
 
@@ -81,6 +81,10 @@ $(document).ready(() => {
       currentImageIndex -= 1;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
+      modal.addClass('slide-right');
+      setTimeout(() => {
+        modal.removeClass('slide-right');
+      }, 500);
     }
   });
 
@@ -89,6 +93,10 @@ $(document).ready(() => {
       currentImageIndex += 1;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
+      modal.addClass('slide-left');
+      setTimeout(() => {
+        modal.removeClass('slide-left');
+      }, 500);
     }
   });
 });
