@@ -33,24 +33,25 @@ $(document).ready(() => {
   const closeModalButtons = $('[data-close-button]');
   const overlay = $('#overlay');
 
-  function openModal() {
-    if (modal == null) return;
+  let currentImageIndex = 0;
+
+  function openModal(index) {
     modal.addClass('active');
     overlay.addClass('active');
+    currentImageIndex = index;
+    const bgpopup = Object.values(array[currentImageIndex])[0];
+    snapshoot.css('background-image', bgpopup);
+    snapshoot.show();
   }
 
   function closeModal() {
-    if (modal == null) return;
     modal.removeClass('active');
     overlay.removeClass('active');
   }
 
   openModalButtons.on('click', function () {
     const index = $(this).data('modalTarget').split('-')[1];
-    const bgpopup = Object.values(array[index - 1])[0];
-    openModal();
-    snapshoot.css('background-image', bgpopup);
-    snapshoot.show();
+    openModal(index - 1);
   });
 
   overlay.on('click', () => {
@@ -74,4 +75,20 @@ $(document).ready(() => {
 
   const nextButton = $('<button></button>').addClass('next-button').html('&gt;');
   buttonsWrapper.append(nextButton);
+
+  prevButton.on('click', () => {
+    if (currentImageIndex > 0) {
+      currentImageIndex -= 1;
+      const bgpopup = Object.values(array[currentImageIndex])[0];
+      snapshoot.css('background-image', bgpopup);
+    }
+  });
+
+  nextButton.on('click', () => {
+    if (currentImageIndex < array.length - 1) {
+      currentImageIndex += 1;
+      const bgpopup = Object.values(array[currentImageIndex])[0];
+      snapshoot.css('background-image', bgpopup);
+    }
+  });
 });
