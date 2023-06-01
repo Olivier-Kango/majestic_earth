@@ -1,4 +1,7 @@
+/* eslint-disable no-use-before-define */
 /* global $ */
+
+// const { event } = require('jquery');
 
 $(document).ready(() => {
   const array = [
@@ -99,4 +102,27 @@ $(document).ready(() => {
       snapshoot.css('background-image', bgpopup);
     }
   });
+
+  // Swipe
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  snapshoot.on('touchstart', (event) => {
+    touchStartX = event.touches[0].clientX;
+  });
+
+  snapshoot.on('touchend', (event) => {
+    touchEndX = event.changedTouches[0].clientX;
+    handleSwipe();
+  });
+
+  const handleSwipe = () => {
+    const minSwipeDistance = 50;
+
+    if (touchEndX - touchStartX > minSwipeDistance) {
+      prevButton.trigger('click');
+    } else if (touchStartX - touchEndX > minSwipeDistance) {
+      nextButton.trigger('click');
+    }
+  };
 });
