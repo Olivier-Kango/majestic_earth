@@ -81,10 +81,10 @@ $(document).ready(() => {
       currentImageIndex -= 1;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
-      modal.addClass('slide-right');
-      setTimeout(() => {
-        modal.removeClass('slide-right');
-      }, 500);
+    } else {
+      currentImageIndex = array.length - 1;
+      const bgpopup = Object.values(array[currentImageIndex])[0];
+      snapshoot.css('background-image', bgpopup);
     }
   });
 
@@ -93,10 +93,10 @@ $(document).ready(() => {
       currentImageIndex += 1;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
-      modal.addClass('slide-left');
-      setTimeout(() => {
-        modal.removeClass('slide-left');
-      }, 500);
+    } else {
+      currentImageIndex = 0;
+      const bgpopup = Object.values(array[currentImageIndex])[0];
+      snapshoot.css('background-image', bgpopup);
     }
   });
 });
