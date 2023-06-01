@@ -2,18 +2,18 @@
 
 $(document).ready(() => {
   const array = [
-    { bgpopup1: "url('./assets/images/1 - Copy.jpg')" },
-    { bgpopup2: "url('./assets/images/2 - Copy.jpg')" },
-    { bgpopup3: "url('./assets/images/3 - Copy.jpg')" },
-    { bgpopup4: "url('./assets/images/4 - Copy.jpg')" },
-    { bgpopup5: "url('./assets/images/5 - Copy.jpg')" },
-    { bgpopup6: "url('./assets/images/6 - Copy.jpg')" },
-    { bgpopup7: "url('./assets/images/7 - Copy.jpg')" },
-    { bgpopup8: "url('./assets/images/8 - Copy.jpg')" },
-    { bgpopup9: "url('./assets/images/9 - Copy.jpg')" },
-    { bgpopup10: "url('./assets/images/10 - Copy.jpg')" },
-    { bgpopup11: "url('./assets/images/11 - Copy.jpg')" },
-    { bgpopup12: "url('./assets/images/12 - Copy.jpg')" },
+    { bgpopup1: "url('./assets/images/1.jpg')" },
+    { bgpopup2: "url('./assets/images/2.jpg')" },
+    { bgpopup3: "url('./assets/images/3.jpg')" },
+    { bgpopup4: "url('./assets/images/4.jpg')" },
+    { bgpopup5: "url('./assets/images/5.jpg')" },
+    { bgpopup6: "url('./assets/images/6.jpg')" },
+    { bgpopup7: "url('./assets/images/7.jpg')" },
+    { bgpopup8: "url('./assets/images/8.jpg')" },
+    { bgpopup9: "url('./assets/images/9.jpg')" },
+    { bgpopup10: "url('./assets/images/10.jpg')" },
+    { bgpopup11: "url('./assets/images/11.jpg')" },
+    { bgpopup12: "url('./assets/images/12.jpg')" },
   ];
 
   const modal = $('<div></div>').addClass('modal');
