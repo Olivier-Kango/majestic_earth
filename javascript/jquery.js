@@ -28,7 +28,9 @@ $(document).ready(() => {
 
   const snapshoot = $('<div></div>').addClass('snapshoot');
   modal.append(snapshoot);
-  snapshoot.css('background-image', '');
+
+  const textContainer = $('<p></p>').addClass('text-container');
+  snapshoot.append(textContainer);
 
   const overlayTwo = $('<div></div>').attr('id', 'overlay');
   $('body').append(overlayTwo);
@@ -36,6 +38,11 @@ $(document).ready(() => {
   const openModalButtons = $('[data-modal-target]');
   const closeModalButtons = $('[data-close-button]');
   const overlay = $('#overlay');
+
+  function updateText(index) {
+    const text = Object.values(array[index])[0];
+    textContainer.text(text);
+  }
 
   let currentImageIndex = 0;
 
@@ -45,6 +52,7 @@ $(document).ready(() => {
     currentImageIndex = index;
     const bgpopup = Object.values(array[currentImageIndex])[0];
     snapshoot.css('background-image', bgpopup);
+    updateText(currentImageIndex);
     snapshoot.show();
   }
 

@@ -460,7 +460,7 @@ footer {
   width: auto;
 }
 
-.slide-text {
+.text-container {
   position: absolute;
   top: 40%;
   left: 0;
@@ -474,7 +474,7 @@ footer {
   border-radius: 10px;
 }
 
-.slide-text > * {
+.text-container > * {
   color: #fff;
   margin-bottom: 1rem;
 }
@@ -554,7 +554,7 @@ footer {
     padding: 1% 5%;
   }
 
-  .slide-text {
+  .text-container {
     right: 0;
     width: 65%;
     margin: auto;
