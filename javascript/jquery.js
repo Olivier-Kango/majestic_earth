@@ -5,7 +5,7 @@ $(document).ready(() => {
   const array = [
     {
       bgpopup1: "url('./assets/images/1.jpg')",
-      text1: 'The heavens declare the glory of God; and the firmament sheweth his handywork. Psalm 19:1',
+      text1: 'I will speak of the glorious honour of thy majesty, and of thy wondrous works. And men shall speak of the might of thy terrible acts: and I will declare thy greatness. Psalm 145:5-6',
     },
     {
       bgpopup2: "url('./assets/images/2.jpg')",
