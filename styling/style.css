@@ -661,6 +661,7 @@ footer {
 
   .modal {
     width: 100%;
+    border: none;
   }
 
   @keyframes slide-up {
