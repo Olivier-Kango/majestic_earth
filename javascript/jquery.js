@@ -1,11 +1,12 @@
 /* eslint-disable no-use-before-define */
 /* global $ */
 
-// const { event } = require('jquery');
-
 $(document).ready(() => {
   const array = [
-    { bgpopup1: "url('./assets/images/1.jpg')" },
+    {
+      bgpopup1: "url('./assets/images/1.jpg')",
+      text1: 'The heavens declare the glory of God; and the firmament sheweth his handywork.',
+    },
     { bgpopup2: "url('./assets/images/2.jpg')" },
     { bgpopup3: "url('./assets/images/3.jpg')" },
     { bgpopup4: "url('./assets/images/4.jpg')" },

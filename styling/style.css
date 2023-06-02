@@ -460,6 +460,25 @@ footer {
   width: auto;
 }
 
+.slide-text {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  margin: auto 5rem;
+  padding: 1rem 2rem;
+  transform: translateY(-50%);
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.45);
+  animation: slide-up 1s ease 0.5s;
+  animation-fill-mode: forwards;
+  border-radius: 10px;
+}
+
+.slide-text > * {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
 .close-button {
   position: absolute;
   top: 0;
@@ -533,6 +552,12 @@ footer {
   #hero nav,
   #sticky-nav nav {
     padding: 1% 5%;
+  }
+
+  .slide-text {
+    right: 0;
+    width: 65%;
+    margin: auto;
   }
 
   #sticky-nav {
