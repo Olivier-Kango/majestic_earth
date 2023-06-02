@@ -5,23 +5,23 @@ $(document).ready(() => {
   const array = [
     {
       bgpopup1: "url('./assets/images/1.jpg')",
-      text1: 'I will speak of the glorious honour of thy majesty, and of thy wondrous works. And men shall speak of the might of thy terrible acts: and I will declare thy greatness.',
+      text1: 'Je dirai la splendeur glorieuse de ta majesté; je chanterai tes merveilles. On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
     },
     {
       bgpopup2: "url('./assets/images/2.jpg')",
-      text2: 'O LORD, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches.',
+      text2: 'Que tes oeuvres sont en grand nombre, ô Éternel! tu les as toutes faites avec sagesse: la terre est remplie de tes biens.',
     },
     {
       bgpopup3: "url('./assets/images/3.jpg')",
-      text3: 'In his hand are the deep places of the earth: the strength of the hills is his also. The sea is his, and he made it: and his hands formed the dry land.',
+      text3: "Dans sa main sont les profondeurs de la terre, et les sommets des montagnes sont à lui. La mer est à lui, c'est lui qui l'a faite; et ses mains ont formé la terre sèche.",
     },
     {
       bgpopup4: "url('./assets/images/4.jpg')",
-      text4: "From the rising of the sun unto the going down of the same the LORD's name is to be praised.",
+      text4: "Du lever du soleil jusqu'à son couchant, que le nom de l'Éternel soit célébré!",
     },
     {
       bgpopup5: "url('./assets/images/5.jpg')",
-      text5: 'Bless the LORD, O my soul. O LORD my God, thou art very great; thou art clothed with honour and majesty.',
+      text5: "Bénis l'Éternel, mon âme! Éternel, mon Dieu, tu es infiniment grand! Tu es revêtu d'éclat et de majesté.",
     },
     {
       bgpopup6: "url('./assets/images/6.jpg')",
@@ -29,27 +29,27 @@ $(document).ready(() => {
     },
     {
       bgpopup7: "url('./assets/images/7.jpg')",
-      text7: 'They also that dwell in the uttermost parts are afraid at thy tokens: thou makest the outgoings of the morning and evening to rejoice.',
+      text7: "Ceux qui habitent aux extrémités du monde sont saisis de crainte devant tes prodiges. Tu remplis d'allégresse l'orient et l'occident.",
     },
     {
       bgpopup8: "url('./assets/images/8.jpg')",
-      text8: 'Let all the earth fear the LORD: let all the inhabitants of the world stand in awe of him. For he spake, and it was done; he commanded, and it stood fast.',
+      text8: "Que toute la terre craigne l'Éternel! Que tous les habitants du monde tremblent devant lui! Car il parle, et la chose existe; il ordonne, et elle se produit.",
     },
     {
       bgpopup9: "url('./assets/images/9.jpg')",
-      text9: 'I will speak of the glorious honour of thy majesty, and of thy wondrous works. And men shall speak of the might of thy terrible acts: and I will declare thy greatness.',
+      text9: 'Je dirai la splendeur glorieuse de ta majesté, je chanterai tes merveilles. On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
     },
     {
       bgpopup10: "url('./assets/images/10.jpg')",
-      text10: 'They also that dwell in the uttermost parts are afraid at thy tokens: thou makest the outgoings of the morning and evening to rejoice.',
+      text10: "Ils sont saisis d'effroi, tous ceux qui habitent aux extrémités de la terre, devant tes prodiges. Tu fais lever le soleil et tu le couches, tu rappelles la nuit et le jour.",
     },
     {
       bgpopup11: "url('./assets/images/11.jpg')",
-      text11: 'For the LORD is a great God, and a great King above all gods.',
+      text11: "Car l'Éternel est un grand Dieu, et un grand roi au-dessus de tous les dieux.",
     },
     {
       bgpopup12: "url('./assets/images/12.jpg')",
-      text12: 'Thou visitest the earth, and waterest it: thou greatly enrichest it with the river of God, which is full of water: thou preparest them corn, when thou hast so provided for it.',
+      text12: "Tu visites la terre, et tu lui donnes l'abondance, tu la combles de richesses; le ruisseau de Dieu est plein d'eau; tu prépares le blé, quand tu la fertilises ainsi.",
     },
   ];
 
