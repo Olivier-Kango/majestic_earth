@@ -25,7 +25,7 @@ $(document).ready(() => {
     },
     {
       bgpopup6: "url('./assets/images/6.jpg')",
-      text6: 'Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob; Which turned the rock into a standing water, the flint into a fountain of waters.',
+      text6: "Tremble, terre, devant la face du Seigneur, devant la face du Dieu de Jacob ! Il change le rocher en étang, il fait du roc une source d'eau.",
     },
     {
       bgpopup7: "url('./assets/images/7.jpg')",
