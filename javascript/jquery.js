@@ -7,9 +7,18 @@ $(document).ready(() => {
       bgpopup1: "url('./assets/images/1.jpg')",
       text1: 'The heavens declare the glory of God; and the firmament sheweth his handywork.',
     },
-    { bgpopup2: "url('./assets/images/2.jpg')" },
-    { bgpopup3: "url('./assets/images/3.jpg')" },
-    { bgpopup4: "url('./assets/images/4.jpg')" },
+    {
+      bgpopup2: "url('./assets/images/2.jpg')",
+      text2: 'O LORD, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches.',
+    },
+    {
+      bgpopup3: "url('./assets/images/3.jpg')",
+      text3: 'In his hand are the deep places of the earth: the strength of the hills is his also. The sea is his, and he made it: and his hands formed the dry land.',
+    },
+    {
+      bgpopup4: "url('./assets/images/4.jpg')",
+      text4: 'I will speak of the glorious honour of thy majesty, and of thy wondrous works. And men shall speak of the might of thy terrible acts: and I will declare thy greatness. Psalm 145:5-6',
+    },
     { bgpopup5: "url('./assets/images/5.jpg')" },
     { bgpopup6: "url('./assets/images/6.jpg')" },
     { bgpopup7: "url('./assets/images/7.jpg')" },
@@ -39,12 +48,12 @@ $(document).ready(() => {
   const closeModalButtons = $('[data-close-button]');
   const overlay = $('#overlay');
 
+  let currentImageIndex = 0;
+
   function updateText(index) {
-    const text = Object.values(array[index])[0];
+    const text = Object.values(array[index])[1];
     textContainer.text(text);
   }
-
-  let currentImageIndex = 0;
 
   function openModal(index) {
     modal.addClass('active');
@@ -93,10 +102,12 @@ $(document).ready(() => {
       currentImageIndex -= 1;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
+      updateText(currentImageIndex);
     } else {
       currentImageIndex = array.length - 1;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
+      updateText(currentImageIndex);
     }
   });
 
@@ -105,10 +116,12 @@ $(document).ready(() => {
       currentImageIndex += 1;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
+      updateText(currentImageIndex);
     } else {
       currentImageIndex = 0;
       const bgpopup = Object.values(array[currentImageIndex])[0];
       snapshoot.css('background-image', bgpopup);
+      updateText(currentImageIndex);
     }
   });
 
@@ -118,10 +131,12 @@ $(document).ready(() => {
 
   snapshoot.on('touchstart', (event) => {
     touchStartX = event.touches[0].clientX;
+    updateText(currentImageIndex);
   });
 
   snapshoot.on('touchend', (event) => {
     touchEndX = event.changedTouches[0].clientX;
+    updateText(currentImageIndex);
     handleSwipe();
   });
 

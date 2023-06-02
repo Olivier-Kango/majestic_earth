@@ -460,23 +460,14 @@ footer {
   width: auto;
 }
 
-.text-container {
+.text-container{
   position: absolute;
-  top: 40%;
-  left: 0;
+  top: 45%;
+  left: 15%;
+  color: white;
   margin: auto 5rem;
   padding: 1rem 2rem;
-  transform: translateY(-50%);
-  opacity: 0;
   background: rgba(0, 0, 0, 0.45);
-  animation: slide-up 1s ease 0.5s;
-  animation-fill-mode: forwards;
-  border-radius: 10px;
-}
-
-.text-container > * {
-  color: #fff;
-  margin-bottom: 1rem;
 }
 
 .close-button {
