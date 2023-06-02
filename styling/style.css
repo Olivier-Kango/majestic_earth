@@ -462,12 +462,26 @@ footer {
 
 .text-container{
   position: absolute;
-  top: 82%;
+  top: 85%;
   left: 0;
   color: white;
   margin: auto 5rem;
   padding: 1rem 2rem;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.363);
+  border-radius: 10px;
+  min-width: 80%;
+}
+
+@keyframes slide-up {
+  0% {
+    visibility: visible;
+    top: 20rem;
+  }
+
+  100% {
+    visibility: visible;
+    top: 70%;
+  }
 }
 
 .close-button {
@@ -540,6 +554,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    font-style: normal;
+  }
+
   #hero nav,
   #sticky-nav nav {
     padding: 1% 5%;
@@ -639,9 +657,17 @@ footer {
     margin-top: -110px;
     margin-left: -195px;
     padding: 20px 40px 0 40px;
+    animation-fill-mode: forwards;
+    border-radius: 10px;
   }
 
   .modal {
     width: 100%;
+  }
+
+  @keyframes slide-up {
+    100% {
+      top: 80%;
+    }
   }
 }
