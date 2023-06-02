@@ -460,16 +460,17 @@ footer {
   width: auto;
 }
 
-.text-container{
+.text-container {
   position: absolute;
   top: 85%;
   left: 0;
   color: white;
   margin: auto 5rem;
   padding: 1rem 2rem;
-  background: rgba(0, 0, 0, 0.363);
+  background: rgba(0, 0, 0, 0.208);
   border-radius: 10px;
-  min-width: 80%;
+  letter-spacing: 0.02em;
+  background-clip: padding-box;
 }
 
 @keyframes slide-up {
@@ -554,16 +555,13 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
-    font-style: normal;
-  }
-
   #hero nav,
   #sticky-nav nav {
     padding: 1% 5%;
   }
 
   .text-container {
+    top: 73%;
     right: 0;
     width: 65%;
     margin: auto;

@@ -37,7 +37,7 @@ $(document).ready(() => {
     },
     {
       bgpopup9: "url('./assets/images/9.jpg')",
-      text9: 'When I consider thy heavens, the work of thy fingers, the moon and the stars, which thou hast ordained; What is man, that thou art mindful of him? and the son of man, that thou visitest him?',
+      text9: 'I will speak of the glorious honour of thy majesty, and of thy wondrous works. And men shall speak of the might of thy terrible acts: and I will declare thy greatness.',
     },
     {
       bgpopup10: "url('./assets/images/10.jpg')",
