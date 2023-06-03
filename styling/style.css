@@ -66,7 +66,15 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 610px;
+  height: 610px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+  overflow: hidden;
+  transition: 0.5s;
+  position: relative;
+  width: auto;
 }
 
 #history {
@@ -547,13 +555,6 @@ footer {
 }
 
 /* FOR MOBILE */
-@media (max-width: 618px) {
-  #hero {
-    background-image: url("../assets/images/home-mobile.jpg");
-    background-size: 100% 100%;
-  }
-}
-
 @media (max-width: 768px) {
   #hero nav,
   #sticky-nav nav {
