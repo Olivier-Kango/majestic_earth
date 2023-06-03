@@ -189,7 +189,7 @@ a {
 
 .nav-link:hover,
 .sticky-nav-link:hover {
-  color: #414f6bc9;
+  opacity: 0.6;
 }
 
 /* SLIDES NAVIGATION */
