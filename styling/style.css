@@ -16,12 +16,6 @@ body {
   height: auto;
 }
 
-.mountains-logo {
-  width: 90px;
-  height: 34px;
-  margin: 0 4px;
-}
-
 .div-team {
   display: flex;
   justify-content: center;
@@ -196,6 +190,25 @@ a {
 
 #logos {
   margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.mountains-logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  color: #132C56;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mountains-logo span:nth-child(2) {
+  color: black;
 }
 
 .nav-link,
