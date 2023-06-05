@@ -27,7 +27,7 @@ body {
 
 .div-team h2::before {
   color: #414f6b;
-  content: 'CLIMB';
+  content: 'MONT';
   position: absolute;
   font-weight: 700;
   margin-left: 103px;
@@ -37,7 +37,7 @@ body {
 
 #history h2::before {
   color: #414f6b;
-  content: 'NATURE';
+  content: 'MAGNIFIQUES PAYSAGES';
   position: absolute;
   font-weight: 700;
   margin-left: 93px;
