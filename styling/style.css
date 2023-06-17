@@ -83,6 +83,14 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.mountains-logo span:nth-child(2) {
+  color: black;
+}
+
+#history p span {
+  float: right;
+}
+
 #hero h1 span:nth-child(2) {
   color: white;
 }
@@ -131,10 +139,6 @@ footer nav p {
 .div-team p,
 #history p {
   margin: -14px 58px 0 58px;
-}
-
-#history p span {
-  float: right;
 }
 
 #sticky-nav {
@@ -201,10 +205,6 @@ a {
   font-size: 0.8rem;
   font-weight: bold;
   margin: 0;
-}
-
-.mountains-logo span:nth-child(2) {
-  color: black;
 }
 
 .nav-link,
