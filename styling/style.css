@@ -63,12 +63,9 @@ body {
   height: 100vh;
   object-fit: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  transition: 0.5s;
   overflow: hidden;
   transition: 0.5s;
   position: relative;
-  width: auto;
 }
 
 #hero h1 {
