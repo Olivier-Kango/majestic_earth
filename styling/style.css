@@ -136,6 +136,10 @@ footer nav p {
   font-size: 12px;
 }
 
+.para-bold {
+  font-weight: 900;
+}
+
 .div-team p,
 #history p {
   margin: -14px 58px 0 58px;
