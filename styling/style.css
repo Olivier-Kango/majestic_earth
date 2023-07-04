@@ -378,14 +378,13 @@ section#history .navigation-manual {
 #team nav h3 {
   font-family: 'Oswald', sans-serif;
   color: #b0b4be;
-  padding: 5px 10px;
+  padding: 6px 10px;
   margin: 0;
   transition: transform 0.3s ease;
 }
 
 #team nav h3:hover {
   background: #b0b4be;
-  border-bottom: #b0b4be 1.4px solid;
   color: #414f6b;
   text-decoration: underline;
   cursor: pointer;
