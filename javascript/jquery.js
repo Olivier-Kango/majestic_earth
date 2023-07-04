@@ -175,9 +175,9 @@ $(document).ready(() => {
   };
 
   // Mounts Selection
-  $('.mountain-link').click(() => {
+  $('.mountain-link').click(function() {
     const paragraphIndex = $(this).data('paragraph');
     $('#schedule p').removeClass('para-bold');
-    $(`#schedule p:nth-child(${paragraphIndex})`).addClass('para-bold');
+    $(`#schedule p:nth-child(${paragraphIndex + 1})`).addClass('para-bold');
   });
 });
