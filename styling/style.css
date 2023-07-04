@@ -375,8 +375,7 @@ section#history .navigation-manual {
   padding: 0 18%;
 }
 
-#team nav h3,
-#team h3 a {
+#team nav h3 {
   font-family: 'Oswald', sans-serif;
   color: #b0b4be;
   padding: 5px 10px;
@@ -384,11 +383,12 @@ section#history .navigation-manual {
   transition: transform 0.3s ease;
 }
 
-#team nav h3 a:hover {
+#team nav h3:hover {
   background: #b0b4be;
   border-bottom: #b0b4be 1.4px solid;
   color: #414f6b;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #team .end {
