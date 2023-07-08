@@ -183,11 +183,15 @@ $(document).ready(() => {
     $('.mountain-link').not(this).removeClass('clicked');
   });
 
+  $('[data-paragraph="0"]').click(() => {
+    $('#team .end').css('background-image', 'url("../assets/images/team.jpg")');
+  });
+
   $('[data-paragraph="1"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/everest.gif")');
   });
 
-  $('[data-paragraph="0"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/team.jpg")');
+  $('[data-paragraph="2"]').click(() => {
+    $('#team .end').css('background-image', 'url("../assets/images/K2.webp")');
   });
 });
