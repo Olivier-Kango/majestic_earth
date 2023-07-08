@@ -185,7 +185,7 @@ $(document).ready(() => {
     $('#team .end').css('background-image', 'url("../assets/images/everest.gif")');
   });
 
-  $('.mountain-link').click(() => {
+  $('[data-paragraph="0"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/team.jpg")');
   });
 });
