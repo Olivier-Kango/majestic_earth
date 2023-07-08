@@ -194,4 +194,8 @@ $(document).ready(() => {
   $('[data-paragraph="2"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/K2.webp")');
   });
+
+  $('[data-paragraph="2"]').click(() => {
+    $('#team .end').css('background-image', 'url("../assets/images/Kangchenjunga.gif")');
+  });
 });
