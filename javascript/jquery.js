@@ -179,6 +179,8 @@ $(document).ready(() => {
     const paragraphIndex = $(this).data('paragraph');
     $('#schedule p').removeClass('para-bold');
     $(`#schedule p:nth-child(${paragraphIndex + 1})`).addClass('para-bold');
+    $(this).addClass('clicked');
+    $('.mountain-link').not(this).removeClass('clicked');
   });
 
   $('[data-paragraph="1"]').click(() => {
