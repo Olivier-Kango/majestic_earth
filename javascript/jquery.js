@@ -181,9 +181,11 @@ $(document).ready(() => {
     $(`#schedule p:nth-child(${paragraphIndex + 1})`).addClass('para-bold');
   });
 
-  // Listen for click event on element with data-paragraph="1"
   $('[data-paragraph="1"]').click(() => {
-    // Change the background image to "team.gif"
     $('#team .end').css('background-image', 'url("../assets/images/everest.gif")');
+  });
+
+  $('.mountain-link').click(() => {
+    $('#team .end').css('background-image', 'url("../assets/images/team.jpg")');
   });
 });
