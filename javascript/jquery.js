@@ -198,4 +198,8 @@ $(document).ready(() => {
   $('[data-paragraph="3"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/Kangchenjunga.gif")');
   });
+
+  $('[data-paragraph="4"]').click(() => {
+    $('#team .end').css('background-image', 'url("../assets/images/los.gif")');
+  });
 });
