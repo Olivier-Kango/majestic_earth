@@ -192,10 +192,10 @@ $(document).ready(() => {
   });
 
   $('[data-paragraph="2"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/K2.webp")');
+    $('#team .end').css('background-image', 'url("../assets/images/K2.gif")');
   });
 
-  $('[data-paragraph="2"]').click(() => {
+  $('[data-paragraph="3"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/Kangchenjunga.gif")');
   });
 });
