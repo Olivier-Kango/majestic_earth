@@ -386,14 +386,12 @@ section#history .navigation-manual {
 #team nav h3.clicked {
   background: #b0b4be;
   color: #414f6b;
-  /* text-decoration: underline; */
   cursor: pointer;
 }
 
 #team nav h3:hover {
   background: #b0b4be;
   color: #414f6b;
-  /* text-decoration: underline; */
   cursor: pointer;
 }
 
