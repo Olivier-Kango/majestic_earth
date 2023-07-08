@@ -401,6 +401,7 @@ section#history .navigation-manual {
   background-image: url("../assets/images/team.jpg");
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   min-height: 446px;
