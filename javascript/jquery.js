@@ -185,25 +185,41 @@ $(document).ready(() => {
 
   $('[data-paragraph="0"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/team.jpg")');
+    $('.mountain-link').not(this).removeClass('clicked');
+    $('#schedule p').not(this).removeClass('para-bold');
     $('.mountain-link:nth-child(1)').addClass('clicked');
     $('#schedule p:nth-child(1)').addClass('para-bold');
   });
 
   $('[data-paragraph="1"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/everest.gif")');
+    $('.mountain-link').not(this).removeClass('clicked');
+    $('#schedule p').not(this).removeClass('para-bold');
     $('.mountain-link:nth-child(2)').addClass('clicked');
     $('#schedule p:nth-child(2)').addClass('para-bold');
   });
 
   $('[data-paragraph="2"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/K2.gif")');
+    $('.mountain-link').not(this).removeClass('clicked');
+    $('#schedule p').not(this).removeClass('para-bold');
+    $('.mountain-link:nth-child(3)').addClass('clicked');
+    $('#schedule p:nth-child(3)').addClass('para-bold');
   });
 
   $('[data-paragraph="3"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/Kangchenjunga.gif")');
+    $('.mountain-link').not(this).removeClass('clicked');
+    $('#schedule p').not(this).removeClass('para-bold');
+    $('.mountain-link:nth-child(4)').addClass('clicked');
+    $('#schedule p:nth-child(4)').addClass('para-bold');
   });
 
   $('[data-paragraph="4"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/los.gif")');
+    $('.mountain-link').not(this).removeClass('clicked');
+    $('#schedule p').not(this).removeClass('para-bold');
+    $('.mountain-link:nth-child(5)').addClass('clicked');
+    $('#schedule p:nth-child(5)').addClass('para-bold');
   });
 });
