@@ -437,6 +437,10 @@ footer {
   cursor: pointer;
 }
 
+.h2:hover {
+  color: #243047;
+}
+
 .scroll-top-right {
   color: #414f6b;
   font-size: 23px;
