@@ -137,6 +137,10 @@ footer nav p {
   cursor: pointer;
 }
 
+.content p:hover {
+  font-weight: 900;
+}
+
 .para-bold {
   font-weight: 900;
 }
