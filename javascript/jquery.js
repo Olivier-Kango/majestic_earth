@@ -185,6 +185,8 @@ $(document).ready(() => {
 
   $('[data-paragraph="0"]').click(() => {
     $('#team .end').css('background-image', 'url("../assets/images/team.jpg")');
+    $('.mountain-link:nth-child(1)').addClass('clicked');
+    $('#schedule p:nth-child(1)').addClass('para-bold');
   });
 
   $('[data-paragraph="1"]').click(() => {
