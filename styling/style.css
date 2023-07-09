@@ -434,6 +434,7 @@ footer {
   font-weight: 900;
   margin: 10px 0;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .scroll-top-right {
