@@ -222,4 +222,21 @@ $(document).ready(() => {
     $('.mountain-link:nth-child(5)').addClass('clicked');
     $('#schedule p:nth-child(5)').addClass('para-bold');
   });
+
+  // Home page Video
+
+  const videoId = 'Cl_kXbhTi8k';
+  const startSeconds = 8; // Starting time in seconds
+
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?start=${startSeconds}`;
+
+  const iframeElement = $('<iframe>')
+    .attr('width', '100%')
+    .attr('height', '100%')
+    .attr('src', embedUrl)
+    .attr('frameborder', '0')
+    .attr('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture')
+    .attr('allowfullscreen', true);
+
+  $('#video-container').append(iframeElement);
 });
