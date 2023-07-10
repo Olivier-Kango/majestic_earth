@@ -224,19 +224,18 @@ $(document).ready(() => {
   });
 
   // Home page Video
+  const videoPath = './assets/videos/earth.mp4';
+  const startSeconds = 8;
 
-  const videoId = 'Cl_kXbhTi8k';
-  const startSeconds = 8; // Starting time in seconds
+  const videoElement = $('#hero-video');
+  videoElement.attr('src', videoPath);
 
-  const embedUrl = `https://www.youtube.com/embed/${videoId}?start=${startSeconds}`;
+  // Wait for the video metadata to load
+  videoElement.on('loadedmetadata', () => {
+    // Set the current time to the desired start position
+    videoElement.get(0).currentTime = startSeconds;
 
-  const iframeElement = $('<iframe>')
-    .attr('width', '100%')
-    .attr('height', '100%')
-    .attr('src', embedUrl)
-    .attr('frameborder', '0')
-    .attr('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture')
-    .attr('allowfullscreen', true);
-
-  $('#video-container').append(iframeElement);
+    // Play the video
+    videoElement.get(0).play();
+  });
 });
