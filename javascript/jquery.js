@@ -175,53 +175,36 @@ $(document).ready(() => {
   };
 
   // Mounts Selection
+  const mountainsData = [
+    { image: '../assets/images/team.jpg', paragraphIndex: 0 },
+    { image: '../assets/images/everest.jpg', paragraphIndex: 1 },
+    { image: '../assets/images/K2.jpg', paragraphIndex: 2 },
+    { image: '../assets/images/Kangchenjunga.gif', paragraphIndex: 3 },
+    { image: '../assets/images/los.gif', paragraphIndex: 4 },
+  ];
+
+  function updateMountainLink(index) {
+    const mountainLink = $(`[data-paragraph="${index}"]`);
+    $('#team .end').css('background-image', `url("${mountainsData[index].image}")`);
+    $('.mountain-link').removeClass('clicked');
+    mountainLink.addClass('clicked');
+    $('#schedule p').removeClass('para-bold');
+    $(`#schedule p:nth-child(${mountainsData[index].paragraphIndex + 1})`).addClass('para-bold');
+  }
+
   $('.mountain-link').click(function() {
     const paragraphIndex = $(this).data('paragraph');
-    $('#schedule p').removeClass('para-bold');
-    $(`#schedule p:nth-child(${paragraphIndex + 1})`).addClass('para-bold');
-    $(this).addClass('clicked');
-    $('.mountain-link').not(this).removeClass('clicked');
+    updateMountainLink(paragraphIndex);
   });
 
-  $('[data-paragraph="0"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/team.jpg")');
-    $('.mountain-link').not(this).removeClass('clicked');
-    $('#schedule p').not(this).removeClass('para-bold');
-    $('.mountain-link:nth-child(1)').addClass('clicked');
-    $('#schedule p:nth-child(1)').addClass('para-bold');
+  mountainsData.forEach((mountain, index) => {
+    $(`[data-paragraph="${index}"]`).click(() => {
+      updateMountainLink(index);
+    });
   });
 
-  $('[data-paragraph="1"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/everest.jpg")');
-    $('.mountain-link').not(this).removeClass('clicked');
-    $('#schedule p').not(this).removeClass('para-bold');
-    $('.mountain-link:nth-child(2)').addClass('clicked');
-    $('#schedule p:nth-child(2)').addClass('para-bold');
-  });
-
-  $('[data-paragraph="2"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/K2.gif")');
-    $('.mountain-link').not(this).removeClass('clicked');
-    $('#schedule p').not(this).removeClass('para-bold');
-    $('.mountain-link:nth-child(3)').addClass('clicked');
-    $('#schedule p:nth-child(3)').addClass('para-bold');
-  });
-
-  $('[data-paragraph="3"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/Kangchenjunga.gif")');
-    $('.mountain-link').not(this).removeClass('clicked');
-    $('#schedule p').not(this).removeClass('para-bold');
-    $('.mountain-link:nth-child(4)').addClass('clicked');
-    $('#schedule p:nth-child(4)').addClass('para-bold');
-  });
-
-  $('[data-paragraph="4"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/los.gif")');
-    $('.mountain-link').not(this).removeClass('clicked');
-    $('#schedule p').not(this).removeClass('para-bold');
-    $('.mountain-link:nth-child(5)').addClass('clicked');
-    $('#schedule p:nth-child(5)').addClass('para-bold');
-  });
+  // Sélection par défaut du premier lien montagne
+  updateMountainLink(0);
 
   // Home page Video
   const videoPath = './assets/videos/earth.mp4';
