@@ -225,10 +225,17 @@ $(document).ready(() => {
 
   // Home page Video
   const videoPath = './assets/videos/earth.mp4';
+  const startSeconds = 8;
 
   const videoElement = $('#hero-video');
   videoElement.attr('src', videoPath);
 
-  // Play the video
-  videoElement.get(0).play();
+  // Wait for the video metadata to load
+  videoElement.on('loadedmetadata', () => {
+    // Set the current time to the desired start position
+    videoElement.get(0).currentTime = startSeconds;
+
+    // Play the video
+    videoElement.get(0).play();
+  });
 });
