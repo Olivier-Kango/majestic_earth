@@ -192,7 +192,7 @@ $(document).ready(() => {
   });
 
   $('[data-paragraph="1"]').click(() => {
-    $('#team .end').css('background-image', 'url("../assets/images/everest.gif")');
+    $('#team .end').css('background-image', 'url("../assets/images/everest.jpg")');
     $('.mountain-link').not(this).removeClass('clicked');
     $('#schedule p').not(this).removeClass('para-bold');
     $('.mountain-link:nth-child(2)').addClass('clicked');
