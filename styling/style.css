@@ -170,6 +170,11 @@ footer nav p {
   z-index: 100;
 }
 
+#hero nav {
+  z-index: 10 !important;
+  position: relative;
+}
+
 footer nav,
 #hero nav,
 #sticky-nav nav {
