@@ -145,17 +145,13 @@ footer nav p {
   cursor: pointer;
 }
 
-.content p:hover {
-  font-weight: 900;
+.div-team p,
+#history p {
+  margin: -14px 58px 0 58px;
 }
 
 .para-bold {
   font-weight: 900;
-}
-
-.div-team p,
-#history p {
-  margin: -14px 58px 0 58px;
 }
 
 #sticky-nav {
@@ -170,11 +166,6 @@ footer nav p {
   z-index: 100;
 }
 
-#hero nav {
-  z-index: 10 !important;
-  position: relative;
-}
-
 footer nav,
 #hero nav,
 #sticky-nav nav {
@@ -182,6 +173,11 @@ footer nav,
   justify-content: space-between;
   align-items: center;
   padding: 0.5% 20%;
+}
+
+#hero nav {
+  z-index: 10 !important;
+  position: relative !important;
 }
 
 nav ul {
@@ -688,6 +684,10 @@ footer {
 
   .div-team p {
     margin: 0 -30px 30px -30px;
+  }
+
+  .content p:hover {
+    font-weight: 900;
   }
 
   #history p {
