@@ -179,7 +179,7 @@ $(document).ready(() => {
     { image: '../assets/images/team.jpg', paragraphIndex: 0 },
     { image: '../assets/images/everest.jpg', paragraphIndex: 1 },
     { image: '../assets/images/K2.jpg', paragraphIndex: 2 },
-    { image: '../assets/images/Kangchenjunga.gif', paragraphIndex: 3 },
+    { image: '../assets/images/Kangchenjunga.jpg', paragraphIndex: 3 },
     { image: '../assets/images/los.gif', paragraphIndex: 4 },
   ];
 
