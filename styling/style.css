@@ -416,7 +416,7 @@ section#history .navigation-manual {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  min-height: 446px;
+  height: 80vh;
 }
 
 footer {
