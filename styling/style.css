@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 html,
 body {
@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   padding: 0;
   margin: 0;
 }
@@ -613,15 +613,6 @@ footer {
 
 /* FOR MOBILE */
 @media (max-width: 768px) {
-  html,
-  body {
-    font-style: normal !important;
-  }
-
-  #hero h1 {
-    font-style: normal !important;
-  }
-
   #hero nav,
   #sticky-nav nav {
     padding: 1% 5%;
