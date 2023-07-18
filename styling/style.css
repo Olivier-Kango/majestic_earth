@@ -387,8 +387,6 @@ section#history .navigation-manual {
   width: 100%;
   display: flex;
   padding: 0 18%;
-  position: sticky !important;
-  top: 20px !important;
 }
 
 #team nav h3 {
