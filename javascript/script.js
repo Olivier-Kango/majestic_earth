@@ -19,26 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
   navbar.style.transition = 'top 0.3s ease';
 
   stickynavbar();
-
-  const navbar2 = document.querySelector('#team nav');
-  const top2 = navbar2.offsetTop;
-  const section2 = document.querySelector('#sticky-nav');
-
-  function stickynavbar2() {
-    if (window.scrollY >= top2) {
-      navbar2.classList.add('sticky');
-      section2.style.marginTop = `${navbar2.offsetHeight}px`;
-    } else {
-      navbar2.classList.remove('sticky');
-      section2.style.marginTop = 50;
-    }
-  }
-
-  window.addEventListener('scroll', stickynavbar2);
-
-  navbar2.style.transition = 'top 0.3s ease';
-
-  stickynavbar2();
 });
 
 // Automatic navigation
