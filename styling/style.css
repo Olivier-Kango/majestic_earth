@@ -532,7 +532,7 @@ footer {
   transition: 0.5s;
   position: relative;
   background-color: white;
-  height: 520px;
+  height: 70vh !important;
   width: auto;
 }
 
