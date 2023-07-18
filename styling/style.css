@@ -252,10 +252,14 @@ section#history {
   position: relative;
 }
 
-#overlay {
-  /* width: 100%; */
+#overlay-slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background: red;
-  height: 100px !important;
+  z-index: -1;
 }
 
 .slider {
