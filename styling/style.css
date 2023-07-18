@@ -258,7 +258,7 @@ section#history {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #5792b49d; 
+  background: #5792b49d;
   z-index: 2;
 }
 
@@ -394,7 +394,7 @@ section#history .navigation-manual {
 }
 
 #team nav {
-  background: #404F6C;
+  background: #404f6c;
   width: 100%;
   display: flex;
   padding: 0 18%;
