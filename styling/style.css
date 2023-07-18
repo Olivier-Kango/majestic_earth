@@ -258,7 +258,7 @@ section#history {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(255, 0, 0, 0.358);
+  background: rgba(255, 0, 0, 0.358); 
   z-index: 2;
 }
 
@@ -295,7 +295,7 @@ section#history .navigation-manual {
   height: auto;
   display: flex;
   padding-bottom: 32px;
-    position: relative;
+  z-index: 10;
 }
 
 .slides input {
