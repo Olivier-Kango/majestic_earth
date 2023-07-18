@@ -252,13 +252,19 @@ section#history {
   position: relative;
 }
 
+#overlay {
+  /* width: 100%; */
+  background: red;
+  height: 100px !important;
+}
+
 .slider {
   width: 760px;
   height: auto;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0;
+  position: relative;
 }
 
 .navigation-manual {
