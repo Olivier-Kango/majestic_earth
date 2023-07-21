@@ -539,8 +539,8 @@ footer {
 .text-container {
   position: absolute;
   top: 80%;
-  left: 50%; /* Centrer horizontalement */
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
   color: white;
   margin: auto 5rem;
   padding: 1rem 2rem;
@@ -549,7 +549,6 @@ footer {
   letter-spacing: 0.02em;
   background-clip: padding-box;
   text-align: center;
-  width: fit-content;
 }
 
 @keyframes slide-up {
