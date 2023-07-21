@@ -539,8 +539,8 @@ footer {
 .text-container {
   position: absolute;
   top: 80%;
-  left: 50%;
-  right: 50%;
+  left: 50%; /* Centrer horizontalement */
+  transform: translateX(-50%);
   color: white;
   margin: auto 5rem;
   padding: 1rem 2rem;
