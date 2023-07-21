@@ -5,7 +5,7 @@ $(document).ready(() => {
   const array = [
     {
       bgpopup1: "url('./assets/images/1.jpg')",
-      text1: 'Je dirai la splendeur glorieuse de ta majesté; je chanterai tes merveilles. On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
+      text1: 'Je dirai la splendeur glorieuse de ta majesté; je chanterai tes merveilles. <br />On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
     },
     {
       bgpopup2: "url('./assets/images/2.jpg')",
@@ -76,7 +76,7 @@ $(document).ready(() => {
 
   function updateText(index) {
     const text = Object.values(array[index])[1];
-    textContainer.text(text);
+    textContainer.html(text);
   }
 
   function openModal(index) {
