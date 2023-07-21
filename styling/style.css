@@ -542,13 +542,14 @@ footer {
   left: 0;
   right: 0;
   color: white;
-  margin: auto 5rem;
+  margin: 0 auto;
   padding: 1rem 2rem;
   background: rgba(0, 0, 0, 0.208);
   border-radius: 10px;
   letter-spacing: 0.02em;
   background-clip: padding-box;
   text-align: center;
+  width: fit-content;
 }
 
 @keyframes slide-up {
