@@ -41,7 +41,7 @@ $(document).ready(() => {
     },
     {
       bgpopup10: "url('./assets/images/10.jpg')",
-      text10: "Ils sont saisis d'effroi, tous ceux qui habitent aux extrémités de la terre, devant tes prodiges. Tu fais lever le soleil et tu le couches, tu rappelles la nuit et le jour.",
+      text10: "Ils sont saisis d'effroi, tous ceux qui habitent aux extrémités de la terre, devant tes prodiges. <br /> Tu fais lever le soleil et tu le couches, tu rappelles la nuit et le jour.",
     },
     {
       bgpopup11: "url('./assets/images/11.jpg')",
@@ -49,7 +49,7 @@ $(document).ready(() => {
     },
     {
       bgpopup12: "url('./assets/images/12.jpg')",
-      text12: "Tu visites la terre, et tu lui donnes l'abondance, tu la combles de richesses; le ruisseau de Dieu est plein d'eau; tu prépares le blé, quand tu la fertilises ainsi.",
+      text12: "Tu visites la terre, et tu lui donnes l'abondance, tu la combles de richesses; <br /> le ruisseau de Dieu est plein d'eau; tu prépares le blé, quand tu la fertilises ainsi.",
     },
   ];
 
