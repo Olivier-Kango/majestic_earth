@@ -540,6 +540,7 @@ footer {
   position: absolute;
   top: 80%;
   left: 0;
+  right: 0;
   color: white;
   margin: auto 5rem;
   padding: 1rem 2rem;
@@ -547,7 +548,6 @@ footer {
   border-radius: 10px;
   letter-spacing: 0.02em;
   background-clip: padding-box;
-  background: red;
 }
 
 @keyframes slide-up {
