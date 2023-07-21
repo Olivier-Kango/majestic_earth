@@ -548,6 +548,7 @@ footer {
   border-radius: 10px;
   letter-spacing: 0.02em;
   background-clip: padding-box;
+  text-align: center;
 }
 
 @keyframes slide-up {
