@@ -544,7 +544,7 @@ footer {
   color: white;
   margin: 0 auto;
   padding: 1rem 2rem;
-  background: rgba(0, 0, 0, 0.208);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   letter-spacing: 0.02em;
   background-clip: padding-box;

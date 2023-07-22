@@ -87,6 +87,7 @@ $(document).ready(() => {
     snapshoot.css('background-image', bgpopup);
     updateText(currentImageIndex);
     snapshoot.show();
+    startAutoScroll();
   }
 
   function closeModal() {
@@ -148,6 +149,29 @@ $(document).ready(() => {
   });
 
   // AUTOMATIC SLIDES
+  const intervalTime = 10000;
+  let autoScrollInterval;
+
+  function startAutoScroll() {
+    goToNextImage();
+    autoScrollInterval = setInterval(() => {
+      goToNextImage();
+    }, intervalTime);
+  }
+
+  function stopAutoScroll() {
+    clearInterval(autoScrollInterval);
+  }
+
+  startAutoScroll();
+
+  prevButton.on('click', () => {
+    stopAutoScroll();
+  });
+
+  nextButton.on('click', () => {
+    stopAutoScroll();
+  });
 
   // SWIPE
   let touchStartX = 0;
