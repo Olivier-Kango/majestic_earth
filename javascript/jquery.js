@@ -135,15 +135,12 @@ $(document).ready(() => {
   prevButton.on('click', () => {
     if (currentImageIndex > 0) {
       currentImageIndex -= 1;
-      const bgpopup = Object.values(array[currentImageIndex])[0];
-      snapshoot.css('background-image', bgpopup);
-      updateText(currentImageIndex);
     } else {
       currentImageIndex = array.length - 1;
-      const bgpopup = Object.values(array[currentImageIndex])[0];
-      snapshoot.css('background-image', bgpopup);
-      updateText(currentImageIndex);
     }
+    const bgpopup = Object.values(array[currentImageIndex])[0];
+    snapshoot.css('background-image', bgpopup);
+    updateText(currentImageIndex);
   });
 
   nextButton.on('click', () => {
@@ -151,7 +148,6 @@ $(document).ready(() => {
   });
 
   // AUTOMATIC SLIDES
-
 
   // SWIPE
   let touchStartX = 0;
