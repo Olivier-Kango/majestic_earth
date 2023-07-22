@@ -568,8 +568,8 @@ footer {
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 8px;
-  padding: 10px;
+  margin-right: 0;
+  padding: 10px 0;
   cursor: pointer;
   border: none;
   outline: none;
@@ -610,13 +610,14 @@ footer {
 .prev-button,
 .next-button {
   background-color: transparent;
-  margin: 0 1.5%;
+  margin: 0;
   border: none;
   font-size: 24px;
   cursor: pointer;
   color: #ccc;
   transform: scaleY(2);
   display: inline-block;
+  padding: 0;
 }
 
 .prev-button:hover,
