@@ -5,51 +5,51 @@ $(document).ready(() => {
   const array = [
     {
       bgpopup1: "url('./assets/images/1.jpg')",
-      text1: 'Je dirai la splendeur glorieuse de ta majesté; je chanterai tes merveilles. On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
+      text1: 'I will exalt you, my God the King; I will praise your name for ever and ever. Every day I will praise you and extol your name for ever and ever. (Psalm 145:1-2 NIV)',
     },
     {
       bgpopup2: "url('./assets/images/2.jpg')",
-      text2: 'Que tes oeuvres sont en grand nombre, ô Éternel! tu les as toutes faites avec sagesse: la terre est remplie de tes biens.',
+      text2: 'How many are your works, LORD! In wisdom you made them all; the earth is full of your creatures. (Psalm 104:24 NIV)',
     },
     {
       bgpopup3: "url('./assets/images/3.jpg')",
-      text3: "Dans sa main sont les profondeurs de la terre, et les sommets des montagnes sont à lui. La mer est à lui, c'est lui qui l'a faite; et ses mains ont formé la terre sèche.",
+      text3: 'In his hand are the depths of the earth, and the mountain peaks belong to him. The sea is his, for he made it, and his hands formed the dry land. (Psalm 95:4-5 NIV)',
     },
     {
       bgpopup4: "url('./assets/images/4.jpg')",
-      text4: "Du lever du soleil jusqu'à son couchant, que le nom de l'Éternel soit célébré!",
+      text4: 'From the rising of the sun to the place where it sets, the name of the LORD is to be praised. (Psalm 113:3 NIV)',
     },
     {
       bgpopup5: "url('./assets/images/5.jpg')",
-      text5: "Bénis l'Éternel, mon âme! Éternel, mon Dieu, tu es infiniment grand! Tu es revêtu d'éclat et de majesté.",
+      text5: 'Praise the LORD, my soul! O LORD my God, you are very great; you are clothed with splendor and majesty. (Psalm 104:1 NIV)',
     },
     {
       bgpopup6: "url('./assets/images/6.jpg')",
-      text6: "Tremble, terre, devant la face du Seigneur, devant la face du Dieu de Jacob ! Il change le rocher en étang, il fait du roc une source d'eau.",
+      text6: "Tremble before him, all the earth! The world is firmly established; it cannot be moved. Let the heavens rejoice, let the earth be glad; let them say among the nations, 'The LORD reigns!' (1 Chronicles 16:30-31 NIV)",
     },
     {
       bgpopup7: "url('./assets/images/7.jpg')",
-      text7: "Ceux qui habitent aux extrémités du monde sont saisis de crainte devant tes prodiges. Tu remplis d'allégresse l'orient et l'occident.",
+      text7: 'From the ends of the earth I call to you, I call as my heart grows faint; lead me to the rock that is higher than I. (Psalm 61:2 NIV)',
     },
     {
       bgpopup8: "url('./assets/images/8.jpg')",
-      text8: "Que toute la terre craigne l'Éternel! Que tous les habitants du monde tremblent devant lui! Car il parle, et la chose existe; il ordonne, et elle se produit.",
+      text8: 'Let the whole earth fear the LORD; let all the people of the world revere him. For he spoke, and it came to be; he commanded, and it stood firm. (Psalm 33:8-9 NIV)',
     },
     {
       bgpopup9: "url('./assets/images/9.jpg')",
-      text9: 'Je dirai la splendeur glorieuse de ta majesté, je chanterai tes merveilles. On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
+      text9: 'I will exalt you, my God the King; I will praise your name for ever and ever. Every day I will praise you and extol your name for ever and ever. (Psalm 145:1-2 NIV)',
     },
     {
       bgpopup10: "url('./assets/images/10.jpg')",
-      text10: "Ils sont saisis d'effroi, tous ceux qui habitent aux extrémités de la terre, devant tes prodiges. Tu fais lever le soleil et tu le couches, tu rappelles la nuit et le jour.",
+      text10: 'The ends of the earth will remember and turn to the LORD, and all the families of the nations will bow down before him, for dominion belongs to the LORD and he rules over the nations. (Psalm 22:27-28 NIV)',
     },
     {
       bgpopup11: "url('./assets/images/11.jpg')",
-      text11: "Car l'Éternel est un grand Dieu, et un grand roi au-dessus de tous les dieux.",
+      text11: 'Give thanks to the LORD, for he is good; his love endures forever. (1 Chronicles 16:34 NIV)',
     },
     {
       bgpopup12: "url('./assets/images/12.jpg')",
-      text12: "Tu visites la terre, et tu lui donnes l'abondance, tu la combles de richesses; <br /> le ruisseau de Dieu est plein d'eau; tu prépares le blé, quand tu la fertilises ainsi.",
+      text12: 'You care for the land and water it; you enrich it abundantly. The streams of God are filled with water to provide the people with grain, for so you have ordained it. (Psalm 65:9 NIV)',
     },
   ];
 
