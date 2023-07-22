@@ -539,8 +539,8 @@ footer {
 .text-container {
   position: absolute;
   top: 80%;
-  left: 0;
-  right: 0;
+  left: 2.5%;
+  right: 2.5%;
   color: white;
   margin: 0 auto;
   padding: 1rem 2rem;
