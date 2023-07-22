@@ -5,15 +5,15 @@ $(document).ready(() => {
   const array = [
     {
       bgpopup1: "url('./assets/images/1.jpg')",
-      text1: 'Je dirai la splendeur glorieuse de ta majesté; je chanterai tes merveilles. <br /> On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
+      text1: 'Je dirai la splendeur glorieuse de ta majesté; je chanterai tes merveilles. On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
     },
     {
       bgpopup2: "url('./assets/images/2.jpg')",
-      text2: 'Que tes oeuvres sont en grand nombre, ô Éternel! tu les as toutes faites avec sagesse: <br /> La terre est remplie de tes biens.',
+      text2: 'Que tes oeuvres sont en grand nombre, ô Éternel! tu les as toutes faites avec sagesse: la terre est remplie de tes biens.',
     },
     {
       bgpopup3: "url('./assets/images/3.jpg')",
-      text3: "Dans sa main sont les profondeurs de la terre, et les sommets des montagnes sont à lui. <br /> La mer est à lui, c'est lui qui l'a faite; et ses mains ont formé la terre sèche.",
+      text3: "Dans sa main sont les profondeurs de la terre, et les sommets des montagnes sont à lui. La mer est à lui, c'est lui qui l'a faite; et ses mains ont formé la terre sèche.",
     },
     {
       bgpopup4: "url('./assets/images/4.jpg')",
@@ -21,27 +21,27 @@ $(document).ready(() => {
     },
     {
       bgpopup5: "url('./assets/images/5.jpg')",
-      text5: "Bénis l'Éternel, mon âme! Éternel, mon Dieu, tu es infiniment grand! <br /> Tu es revêtu d'éclat et de majesté.",
+      text5: "Bénis l'Éternel, mon âme! Éternel, mon Dieu, tu es infiniment grand! Tu es revêtu d'éclat et de majesté.",
     },
     {
       bgpopup6: "url('./assets/images/6.jpg')",
-      text6: "Tremble, terre, devant la face du Seigneur, devant la face du Dieu de Jacob ! <br />Il change le rocher en étang, il fait du roc une source d'eau.",
+      text6: "Tremble, terre, devant la face du Seigneur, devant la face du Dieu de Jacob ! Il change le rocher en étang, il fait du roc une source d'eau.",
     },
     {
       bgpopup7: "url('./assets/images/7.jpg')",
-      text7: "Ceux qui habitent aux extrémités du monde sont saisis de crainte devant tes prodiges. <br /> Tu remplis d'allégresse l'orient et l'occident.",
+      text7: "Ceux qui habitent aux extrémités du monde sont saisis de crainte devant tes prodiges. Tu remplis d'allégresse l'orient et l'occident.",
     },
     {
       bgpopup8: "url('./assets/images/8.jpg')",
-      text8: "Que toute la terre craigne l'Éternel! Que tous les habitants du monde tremblent devant lui! <br /> Car il parle, et la chose existe; il ordonne, et elle se produit.",
+      text8: "Que toute la terre craigne l'Éternel! Que tous les habitants du monde tremblent devant lui! Car il parle, et la chose existe; il ordonne, et elle se produit.",
     },
     {
       bgpopup9: "url('./assets/images/9.jpg')",
-      text9: 'Je dirai la splendeur glorieuse de ta majesté, je chanterai tes merveilles. <br /> On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
+      text9: 'Je dirai la splendeur glorieuse de ta majesté, je chanterai tes merveilles. On parlera de ta puissance redoutable, et je raconterai ta grandeur.',
     },
     {
       bgpopup10: "url('./assets/images/10.jpg')",
-      text10: "Ils sont saisis d'effroi, tous ceux qui habitent aux extrémités de la terre, devant tes prodiges. <br /> Tu fais lever le soleil et tu le couches, tu rappelles la nuit et le jour.",
+      text10: "Ils sont saisis d'effroi, tous ceux qui habitent aux extrémités de la terre, devant tes prodiges. Tu fais lever le soleil et tu le couches, tu rappelles la nuit et le jour.",
     },
     {
       bgpopup11: "url('./assets/images/11.jpg')",
