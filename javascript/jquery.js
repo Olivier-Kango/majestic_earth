@@ -111,7 +111,7 @@ $(document).ready(() => {
     closeModal(modal);
   });
 
-  // Manual Slides
+  // MANUAL SLIDES
   const buttonsWrapper = $('<div></div>').addClass('buttons-wrapper');
   modal.append(buttonsWrapper);
 
@@ -120,6 +120,17 @@ $(document).ready(() => {
 
   const nextButton = $('<button></button>').addClass('next-button').html('&gt;');
   buttonsWrapper.append(nextButton);
+
+  const goToNextImage = () => {
+    if (currentImageIndex < array.length - 1) {
+      currentImageIndex += 1;
+    } else {
+      currentImageIndex = 0;
+    }
+    const bgpopup = Object.values(array[currentImageIndex])[0];
+    snapshoot.css('background-image', bgpopup);
+    updateText(currentImageIndex);
+  };
 
   prevButton.on('click', () => {
     if (currentImageIndex > 0) {
@@ -136,20 +147,13 @@ $(document).ready(() => {
   });
 
   nextButton.on('click', () => {
-    if (currentImageIndex < array.length - 1) {
-      currentImageIndex += 1;
-      const bgpopup = Object.values(array[currentImageIndex])[0];
-      snapshoot.css('background-image', bgpopup);
-      updateText(currentImageIndex);
-    } else {
-      currentImageIndex = 0;
-      const bgpopup = Object.values(array[currentImageIndex])[0];
-      snapshoot.css('background-image', bgpopup);
-      updateText(currentImageIndex);
-    }
+    goToNextImage();
   });
 
-  // Swipe
+  // AUTOMATIC SLIDES
+
+
+  // SWIPE
   let touchStartX = 0;
   let touchEndX = 0;
 
@@ -174,7 +178,7 @@ $(document).ready(() => {
     }
   };
 
-  // Mounts Selection
+  // MOUNTS SELECTION
   const mountainsData = [
     { image: '../assets/images/team.jpg', paragraphIndex: 0 },
     { image: '../assets/images/everest.jpg', paragraphIndex: 1 },
@@ -206,7 +210,7 @@ $(document).ready(() => {
   // Sélection par défaut du premier lien montagne
   updateMountainLink(0);
 
-  // Home page Video
+  // HOME PAGE VIDEO
   const videoPath = './assets/videos/earth.mp4';
   const startSeconds = 8;
 
