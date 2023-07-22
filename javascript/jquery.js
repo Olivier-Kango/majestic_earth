@@ -92,7 +92,6 @@ $(document).ready(() => {
   function closeModal() {
     modal.removeClass('active');
     overlay.removeClass('active');
-    startAutoScroll();
   }
 
   openModalButtons.on('click', function () {
@@ -159,19 +158,11 @@ $(document).ready(() => {
     }, intervalTime);
   }
 
-  function stopAutoScroll() {
-    clearInterval(autoScrollInterval);
-  }
+  // function stopAutoScroll() {
+  //   clearInterval(autoScrollInterval);
+  // }
 
   startAutoScroll();
-
-  prevButton.on('click', () => {
-    stopAutoScroll();
-  });
-
-  nextButton.on('click', () => {
-    stopAutoScroll();
-  });
 
   // SWIPE
   let touchStartX = 0;
