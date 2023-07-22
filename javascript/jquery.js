@@ -87,12 +87,12 @@ $(document).ready(() => {
     snapshoot.css('background-image', bgpopup);
     updateText(currentImageIndex);
     snapshoot.show();
-    startAutoScroll();
   }
 
   function closeModal() {
     modal.removeClass('active');
     overlay.removeClass('active');
+    startAutoScroll();
   }
 
   openModalButtons.on('click', function () {
@@ -149,7 +149,7 @@ $(document).ready(() => {
   });
 
   // AUTOMATIC SLIDES
-  const intervalTime = 10000;
+  const intervalTime = 9000;
   let autoScrollInterval;
 
   function startAutoScroll() {
