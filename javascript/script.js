@@ -73,4 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
       bars[i].classList.toggle('change');
     }
   });
+
+  // Footer
+  const currentYear = new Date().getFullYear();
+  const copyrightText = `© ${currentYear} Olivier Kango. All rights reserved`;
+  document.getElementById('copyright').textContent = copyrightText;
 });
