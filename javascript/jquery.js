@@ -33,7 +33,7 @@ $(document).ready(() => {
     },
     {
       bgpopup8: "url('./assets/images/8.jpg')",
-      text8: 'Let the whole earth fear the LORD; let all the people of the world revere him. For he spoke, and it came to be; he commanded, and it stood firm. (Psalm 33:8-9 NIV)',
+      text8: 'Let the whole earth fear the LORD; let all the people of the world revere him. For he spoke, and it came to be; he commanded, and it stood firm. <br />(Psalm 33:8-9 NIV)',
     },
     {
       bgpopup9: "url('./assets/images/9.jpg')",
