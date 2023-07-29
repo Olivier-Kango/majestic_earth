@@ -29,7 +29,7 @@ $(document).ready(() => {
     },
     {
       bgpopup7: "url('./assets/images/7.jpg')",
-      text7: 'From the ends of the earth I call to you, I call as my heart grows faint; lead me to the rock that is higher than I. (Psalm 61:2 NIV)',
+      text7: 'From the ends of the earth I call to you, I call as my heart grows faint; lead me to the rock that is higher than I. <br />(Psalm 61:2 NIV)',
     },
     {
       bgpopup8: "url('./assets/images/8.jpg')",
