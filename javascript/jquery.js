@@ -21,7 +21,7 @@ $(document).ready(() => {
     },
     {
       bgpopup5: "url('./assets/images/5.jpg')",
-      text5: 'Praise the LORD, my soul! O LORD my God, you are very great; you are clothed with splendor and majesty. (Psalm 104:1 NIV)',
+      text5: 'Praise the LORD, my soul! O LORD my God, you are very great; you are clothed with splendor and majesty. <br />(Psalm 104:1 NIV)',
     },
     {
       bgpopup6: "url('./assets/images/6.jpg')",
