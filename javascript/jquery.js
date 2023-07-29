@@ -5,7 +5,7 @@ $(document).ready(() => {
   const array = [
     {
       bgpopup1: "url('./assets/images/1.jpg')",
-      text1: 'I will exalt you, my God the King; I will praise your name for ever and ever. Every day I will praise you and extol your name for ever and ever. (Psalm 145:1-2 NIV)',
+      text1: 'I will exalt you, my God the King; I will praise your name for ever and ever. Every day I will praise you and extol your name for ever and ever. <br />(Psalm 145:1-2)',
     },
     {
       bgpopup2: "url('./assets/images/2.jpg')",
