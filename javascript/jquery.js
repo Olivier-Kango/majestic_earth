@@ -9,7 +9,7 @@ $(document).ready(() => {
     },
     {
       bgpopup2: "url('./assets/images/2.jpg')",
-      text2: 'How many are your works, LORD! In wisdom you made them all; the earth is full of your creatures. (Psalm 104:24 NIV)',
+      text2: 'How many are your works, LORD! In wisdom you made them all; the earth is full of your creatures. <br />(Psalm 104:24 NIV)',
     },
     {
       bgpopup3: "url('./assets/images/3.jpg')",
