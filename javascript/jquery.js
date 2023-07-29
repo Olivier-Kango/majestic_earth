@@ -17,7 +17,7 @@ $(document).ready(() => {
     },
     {
       bgpopup4: "url('./assets/images/4.jpg')",
-      text4: 'From the rising of the sun to the place where it sets, the name of the LORD is to be praised. (Psalm 113:3 NIV)',
+      text4: 'From the rising of the sun to the place where it sets, the name of the LORD is to be praised. <br />(Psalm 113:3 NIV)',
     },
     {
       bgpopup5: "url('./assets/images/5.jpg')",
