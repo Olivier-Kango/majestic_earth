@@ -41,7 +41,7 @@ $(document).ready(() => {
     },
     {
       bgpopup10: "url('./assets/images/10.jpg')",
-      text10: 'The ends of the earth will remember and turn to the LORD, and all the families of the nations will bow down before him, for dominion belongs to the LORD and he rules over the nations. (Psalm 22:27-28 NIV)',
+      text10: 'The ends of the earth will remember and turn to the LORD, and all the families of the nations will bow down before him, for dominion belongs to the LORD and he rules over the nations. <br />(Psalm 22:27-28 NIV)',
     },
     {
       bgpopup11: "url('./assets/images/11.jpg')",
