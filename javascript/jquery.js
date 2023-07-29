@@ -45,7 +45,7 @@ $(document).ready(() => {
     },
     {
       bgpopup11: "url('./assets/images/11.jpg')",
-      text11: 'Give thanks to the LORD, for he is good; his love endures forever. (1 Chronicles 16:34 NIV)',
+      text11: 'Give thanks to the LORD, for he is good; his love endures forever. <br />(1 Chronicles 16:34 NIV)',
     },
     {
       bgpopup12: "url('./assets/images/12.jpg')",
