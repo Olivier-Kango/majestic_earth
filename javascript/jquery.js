@@ -13,7 +13,7 @@ $(document).ready(() => {
     },
     {
       bgpopup3: "url('./assets/images/3.jpg')",
-      text3: 'In his hand are the depths of the earth, and the mountain peaks belong to him. The sea is his, for he made it, and his hands formed the dry land. (Psalm 95:4-5 NIV)',
+      text3: 'In his hand are the depths of the earth, and the mountain peaks belong to him. The sea is his, for he made it, and his hands formed the dry land. <br />(Psalm 95:4-5 NIV)',
     },
     {
       bgpopup4: "url('./assets/images/4.jpg')",
