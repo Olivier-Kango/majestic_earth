@@ -49,7 +49,7 @@ $(document).ready(() => {
     },
     {
       bgpopup12: "url('./assets/images/12.jpg')",
-      text12: 'You care for the land and water it; you enrich it abundantly. The streams of God are filled with water to provide the people with grain, for so you have ordained it. (Psalm 65:9 NIV)',
+      text12: 'You care for the land and water it; you enrich it abundantly. The streams of God are filled with water to provide the people with grain, for so you have ordained it. <br />(Psalm 65:9 NIV)',
     },
   ];
 
