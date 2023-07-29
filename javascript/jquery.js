@@ -25,7 +25,7 @@ $(document).ready(() => {
     },
     {
       bgpopup6: "url('./assets/images/6.jpg')",
-      text6: "Tremble before him, all the earth! The world is firmly established; it cannot be moved. Let the heavens rejoice, let the earth be glad; let them say among the nations, 'The LORD reigns!' (1 Chronicles 16:30-31 NIV)",
+      text6: "Tremble before him, all the earth! The world is firmly established; it cannot be moved. Let the heavens rejoice, let the earth be glad; let them say among the nations, 'The LORD reigns!' <br />(1 Chronicles 16:30-31 NIV)",
     },
     {
       bgpopup7: "url('./assets/images/7.jpg')",
