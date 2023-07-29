@@ -37,7 +37,7 @@ $(document).ready(() => {
     },
     {
       bgpopup9: "url('./assets/images/9.jpg')",
-      text9: 'I will exalt you, my God the King; I will praise your name for ever and ever. Every day I will praise you and extol your name for ever and ever. (Psalm 145:1-2 NIV)',
+      text9: 'I will exalt you, my God the King; I will praise your name for ever and ever. Every day I will praise you and extol your name for ever and ever. <br />(Psalm 145:1-2 NIV)',
     },
     {
       bgpopup10: "url('./assets/images/10.jpg')",
